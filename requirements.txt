@@ -1,0 +1,34 @@
+# Core dependencies
+numpy>=1.21.0
+opencv-python>=4.5.0
+Pillow>=8.3.0
+sympy>=1.9.0
+
+# Deep Learning and OCR
+torch>=1.12.0
+torchvision>=0.13.0
+transformers>=4.20.0
+pytesseract>=0.3.10
+
+# Web Interface
+streamlit>=1.20.0
+
+# Database
+sqlite3  # Built-in with Python
+
+# Additional utilities
+matplotlib>=3.5.0
+seaborn>=0.11.0
+pandas>=1.4.0
+scikit-learn>=1.1.0
+
+# Development and testing
+pytest>=7.0.0
+pytest-cov>=3.0.0
+black>=22.0.0
+flake8>=4.0.0
+mypy>=0.950
+
+# Optional: For better performance
+accelerate>=0.20.0
+datasets>=2.0.0
